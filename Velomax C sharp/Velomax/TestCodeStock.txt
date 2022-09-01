@@ -1,0 +1,26 @@
+﻿            DateTime i = DateTime.Now;
+            DateTime j = DateTime.Now;
+            Velo vel = new Velo("001", dateImVelo: i, dateDpVelo: j, prixUnitVelo: 50, stockVelo: 45);
+            Piece p1 = new Piece("p1", dateImPiece: i, prixUnitPiece: 200, quantiteStock: 30);
+            Piece p2 = new Piece("p2", dateImPiece: i, prixUnitPiece: 200, quantiteStock: 30);
+            Piece p3 = new Piece("p3", dateImPiece: i, prixUnitPiece: 200, quantiteStock: 30);
+
+            vel.addVelo();
+            p1.addPiece();
+            Commande c = new Commande("c1");
+            c.contenuCommande.Add(vel);
+            c.nbVelos.Add(7);
+            c.supplement.Add(p1);
+            c.nbPieces.Add(25);
+
+            Fournisseur f = new Fournisseur("f1");
+            f.approv.Add(p1);
+            f.nbPieces.Add(2577);
+
+            f.addFournisseur();
+
+            for (int k = 0; k < f.stock().Item2.Count; k++)
+            {
+                Console.WriteLine(f.stock().Item1[k].idPiece);
+                Console.WriteLine(f.stock().Item2[k]);
+            }
