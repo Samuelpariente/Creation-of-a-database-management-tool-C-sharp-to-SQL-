@@ -1,11 +1,11 @@
 # Creation-of-a-database-management-tool-C-sharp-to-SQL-
 BDD – Rapport du Problème 
 
-I-  Introduction 
+## I-  Introduction 
 
 Dans le cadre de ce projet, nous avons conçu une base de données pour une boutique de vélo nommée Velomax.  Pour  accomplir  cette  tâche  nous  avons  conçu  12  entités  et  14  associations  donnant finalement 15 tables dans notre code SQL. Dans ce rapport, nous vous décrirons dans un premier temps la structure de notre base de données SQL, puis dans un second temps la structure du code C# permettant une interaction efficace avec la base de données.  
 
-II-  Structure de la base de données (SQL) 
+## II-  Structure de la base de données (SQL) 
 
 1-  Modèle E/A 
 
@@ -43,7 +43,7 @@ Nos tables sont peuplées comme suit :
 |Contenu Commande |7 |Supplément |6 |
 |Fournisseur |6 |Approvisionnement |6 |
 |Piece |5 |X |X |
-III-  Structure du code appelant (C#) 
+## III-  Structure du code appelant (C#) 
 
 1-  Les requêtes 
 
