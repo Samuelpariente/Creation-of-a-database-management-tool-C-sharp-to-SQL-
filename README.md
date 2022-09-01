@@ -1,7 +1,5 @@
 # Creation-of-a-database-management-tool-C-sharp-to-SQL-
-BDD – Rapport du Problème ![](Ressources/Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.001.png)
-
-*Par Pariente Samuel et Ortega Marius ![](Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.002.png)*
+BDD – Rapport du Problème 
 
 I-  Introduction 
 
@@ -13,7 +11,7 @@ II-  Structure de la base de données (SQL)
 
 En amont de la création de notre base de données, nous avons développé le modèle E/A de notre base : 
 
-![](Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.003.jpeg)
+![](Ressources/Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.003.jpeg)
 
 2-  Code SQL 
 
@@ -51,7 +49,7 @@ III-  Structure du code appelant (C#)
 
 Les fonctions ‘Requete’ et ‘Execute’ permettent respectivement d’exécuter « Queries » et « Non- Queries ». Elles nous permettent de ne pas avoir à la refaire à chaque requête SQL. On passe juste une string contenant le code SQL en paramètre. Ci-après un exemple d’utilisation de ‘Requete’ : 
 
-![](Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.004.png)
+![](Ressources/Aspose.Words.e5964a3f-f463-4a2f-9e08-5ec97b5c9d67.004.png)
 
 2-  Les Classes 
 
